@@ -312,6 +312,10 @@ df.skew()
 
 # ============================================================================
 # Tipos de gráficos
+!pip install matplotlib
+
+import pandas as pd
+import matplotlib.pyplot as plt
 
 nombres = ['long_sepalo','ancho_sepalo','long_petalo','ancho_petalo','clase']
 df.columns = nombres
